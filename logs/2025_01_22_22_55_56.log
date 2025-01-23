@@ -1,0 +1,5 @@
+2025-01-22 22:55:56,071 - INFO - FunctionTool for search created successfully.
+2025-01-22 22:55:58,489 - INFO - Gemini LLM initialized successfully.
+2025-01-22 22:55:58,706 - INFO - Initialized OpenAI LLM successfully.
+2025-01-22 22:55:58,707 - INFO - Received query: What is the name of the prime minister of Pakistan?
+2025-01-22 22:56:26,780 - ERROR - Error occurred in script [D:\Projects\React llm agent\main.py] line [10] message [Reached max iterations.]

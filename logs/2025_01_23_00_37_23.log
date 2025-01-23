@@ -1,0 +1,1 @@
+2025-01-23 00:37:23,530 - ERROR - Error occurred in script [D:\Projects\React llm agent\agents\react_agent.py] line [11] message [name 'searchingTool' is not defined]

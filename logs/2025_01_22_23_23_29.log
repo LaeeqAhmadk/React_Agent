@@ -1,0 +1,7 @@
+2025-01-22 23:23:29,385 - INFO - FunctionTool for search created successfully.
+2025-01-22 23:23:31,670 - INFO - Gemini LLM initialized successfully.
+2025-01-22 23:23:31,867 - INFO - Initialized OpenAI LLM successfully.
+2025-01-22 23:23:31,868 - INFO - Received query: What is the name of the prime minister of Pakistan?
+2025-01-22 23:23:36,231 - INFO - Searching for query: who is the current prime minister of Pakistan
+2025-01-22 23:23:40,119 - INFO - Search completed successfully.
+2025-01-22 23:23:41,339 - INFO - Agent's response: The current prime minister of Pakistan is Shehbaz Sharif.

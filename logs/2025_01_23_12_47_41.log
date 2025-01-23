@@ -1,0 +1,5 @@
+2025-01-23 12:47:41,467 - INFO - FunctionTool for search created successfully.
+2025-01-23 12:47:43,632 - INFO - Gemini LLM initialized successfully.
+2025-01-23 12:47:43,863 - INFO - Initialized ReActAgent successfully.
+2025-01-23 12:47:43,864 - INFO - Received query: What is the name of the prime minister of Pakistan?
+2025-01-23 12:47:43,865 - ERROR - Error occurred in script [D:\Projects\React llm agent\main.py] line [12] message ['ReActAgent' object has no attribute 'tools']

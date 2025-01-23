@@ -1,0 +1,10 @@
+2025-01-22 22:25:39,452 - INFO - FunctionTool for search created successfully.
+2025-01-22 22:25:43,198 - INFO - Gemini LLM initialized successfully.
+2025-01-22 22:25:43,389 - INFO - Initialized OpenAI LLM successfully.
+2025-01-22 22:25:43,390 - INFO - ReActAgent initialized successfully.
+2025-01-22 22:25:43,391 - INFO - Received query: What is the name of the prime minister of Pakistan?
+2025-01-22 22:25:47,032 - INFO - Searching for query: who is the current prime minister of Pakistan
+2025-01-22 22:25:48,034 - INFO - Search completed successfully.
+2025-01-22 22:25:50,623 - ERROR - Error occurred in script [D:\Projects\React llm agent\tools\search_tool.py] line [23] message ['str' object has no attribute 'description']
+2025-01-22 22:25:51,943 - INFO - Agent's response: The current prime minister of Pakistan is Anwaar-ul-Haq Kakar.
+```

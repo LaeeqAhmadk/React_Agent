@@ -1,0 +1,38 @@
+2025-01-23 00:45:35,797 - INFO - FunctionTool for search created successfully.
+2025-01-23 00:45:37,050 - INFO - Gemini LLM initialized successfully.
+2025-01-23 00:45:37,272 - INFO - Initialized ReActAgent successfully.
+2025-01-23 00:45:43,331 - INFO - Searching for query: who is the president of usa
+2025-01-23 00:45:43,333 - INFO - Searching for query: who is the president of usa
+2025-01-23 00:45:45,296 - INFO - Search completed successfully.
+2025-01-23 00:45:45,297 - INFO - Search Result: 
+https://en.wikipedia.org/wiki/President_of_the_United_States
+https://usun.usmission.gov/our-leaders/the-president-of-the-united-states/
+https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States
+https://ba.usembassy.gov/donald-j-trump-americas-new-president/
+http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQrJzSTI4OI2aLe6DgXajqOO5E87Z3nGiTCZcn_-Q9xqZ_CLtLNLeYib4xxZUSGZgzb
+https://www.ohiosos.gov/elections/election-results-and-data/historical-election-comparisons/presidents-of-the-united-states-of-america/
+https://www.youtube.com/watch?v=X5gMiDnYEds
+https://in.usembassy.gov/our-relationship/the-president-of-the-united-states/
+https://www.instagram.com/potus/?hl=en
+2025-01-23 00:45:45,300 - ERROR - An error occurred: '\nhttps://en.wikipedia.org/wiki/President_of_the_United_States\nhttps://usun.usmission.gov/our-leaders/the-president-of-the-united-states/\nhttps://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States\nhttps://ba.usembassy.gov/donald-j-trump-americas-new-president/\nhttp://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQrJzSTI4OI2aLe6DgXajqOO5E87Z3nGiTCZcn_-Q9xqZ_CLtLNLeYib4xxZUSGZgzb\nhttps://www.ohiosos.gov/elections/election-results-and-data/historical-election-comparisons/presidents-of-the-united-states-of-america/\nhttps://www.youtube.com/watch?v=X5gMiDnYEds\nhttps://in.usembassy.gov/our-relationship/the-president-of-the-united-states/\nhttps://www.instagram.com/potus/?hl=en'
+2025-01-23 00:45:45,302 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "D:\Projects\React llm agent\app.py", line 29, in <module>
+    response = agent.run_step(search_result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 321, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\runner\base.py", line 487, in run_step
+    return self._run_step(
+           ^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 321, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\runner\base.py", line 403, in _run_step
+    task = self.state.get_task(task_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\runner\base.py", line 193, in get_task
+    return self.task_dict[task_id].task
+           ~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: '\nhttps://en.wikipedia.org/wiki/President_of_the_United_States\nhttps://usun.usmission.gov/our-leaders/the-president-of-the-united-states/\nhttps://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States\nhttps://ba.usembassy.gov/donald-j-trump-americas-new-president/\nhttp://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQrJzSTI4OI2aLe6DgXajqOO5E87Z3nGiTCZcn_-Q9xqZ_CLtLNLeYib4xxZUSGZgzb\nhttps://www.ohiosos.gov/elections/election-results-and-data/historical-election-comparisons/presidents-of-the-united-states-of-america/\nhttps://www.youtube.com/watch?v=X5gMiDnYEds\nhttps://in.usembassy.gov/our-relationship/the-president-of-the-united-states/\nhttps://www.instagram.com/potus/?hl=en'
