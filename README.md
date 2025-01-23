@@ -40,23 +40,18 @@ react_agent_app/
 - **Custom Search Tool**: The agent is paired with a custom function tool to search for specific information, such as querying for general knowledge or domain-specific topics.
 - **Logging and Error Handling**: The project is equipped with detailed logging to track agent behavior and catch exceptions.
 
-## Installation
 
-### Prerequisites
+## Usage
+   - Interacting with the Agent: The ReAct agent will take user input (a query) and search for relevant information based on the tools available.
+   - Customizing the Agent: You can easily modify the search_tool.py file or add new tools to expand the agent's capabilities.
+Contributing
 
-Make sure you have Python 3.7 or higher installed.
+If you'd like to contribute to the project, feel free to fork it and submit a pull request with your improvements.
 
-1. Clone the repository to your local machine:
+## License
 
-   ```bash
-   git clone https://github.com/LaeeqAhmadk/React_Agent.git
-   cd React_Agent
-  ```bash
-python -m venv .venv
-.\.venv\Scripts\activate  # For Windows
-```
-  ```bash
-pip install -r requirements.txt
-```
-## Running the Application
+This project is licensed under the Apache 2.0 License. See the [LICENSE](./LICENSE) file for more details.
+
+
+
 
