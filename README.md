@@ -6,7 +6,7 @@ This project integrates a **ReAct AI Agent** with a custom tool for querying rea
 
 The project is organized into the following directories and files:
 
-![Uploading WhatsApp Image 2025-01-23 at 18.52.54_5e7aec14.jpg…]()
+![Image Description](images/your-image-file-name.jpg)
 
 
 
