@@ -6,7 +6,7 @@ This project integrates a **ReAct AI Agent** with a custom tool for querying rea
 
 The project is organized into the following directories and files:
 
-![Image Description](images/your-image-file-name.jpg)
+![Image Description](image.jpg)
 
 
 
