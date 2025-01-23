@@ -6,7 +6,19 @@ This project integrates a **ReAct AI Agent** with a custom tool for querying rea
 
 The project is organized into the following directories and files:
 
-react_agent_app/ ├── app.py # Streamlit app to interact with the ReAct Agent ├── requirements.txt # Python dependencies for the project ├── main.py # Main script to execute the agent's queries ├── agents/ # Directory containing agent logic │ ├── react_agent.py # Configuration and setup of the ReAct agent ├── tools/ # Directory containing external tools │ ├── search_tool.py # A custom search tool function for querying information ├── utils/ # Utility functions and logging │ ├── custom_logger.py # Logger configuration │ ├── exception.py # Custom exceptions used in the project ├── config/ # Configuration files for setting up the environment │ ├── settings.py # Stores environment variables and API keys
+react_agent_app/ 
+├── app.py # Streamlit app to interact with the ReAct Agent 
+├── requirements.txt # Python dependencies for the project 
+├── main.py # Main script to execute the agent's queries 
+├── agents/ # Directory containing agent logic 
+│ ├── react_agent.py # Configuration and setup of the ReAct agent 
+├── tools/ # Directory containing external tools 
+│ ├── search_tool.py # A custom search tool function for querying information 
+├── utils/ # Utility functions and logging 
+│ ├── custom_logger.py # Logger configuration 
+│ ├── exception.py # Custom exceptions used in the project 
+├── config/ # Configuration files for setting up the environment 
+│ ├── settings.py # Stores environment variables and API keys
 
 
 
