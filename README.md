@@ -44,7 +44,9 @@ react_agent_app/
 ## Usage
    - Interacting with the Agent: The ReAct agent will take user input (a query) and search for relevant information based on the tools available.
    - Customizing the Agent: You can easily modify the search_tool.py file or add new tools to expand the agent's capabilities.
-Contributing
+
+     
+## Contributing
 
 If you'd like to contribute to the project, feel free to fork it and submit a pull request with your improvements.
 
