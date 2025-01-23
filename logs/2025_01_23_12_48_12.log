@@ -1,0 +1,10 @@
+2025-01-23 12:48:12,583 - INFO - FunctionTool for search created successfully.
+2025-01-23 12:48:14,765 - INFO - Gemini LLM initialized successfully.
+2025-01-23 12:48:14,990 - INFO - Initialized ReActAgent successfully.
+2025-01-23 12:48:16,473 - ERROR - An error occurred: name 'ReActAgent' is not defined
+2025-01-23 12:48:16,474 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "D:\Projects\React llm agent\app.py", line 13, in <module>
+    agent = ReActAgent(tools=[search_tool_instance], llm=llm, memory=memory)
+            ^^^^^^^^^^
+NameError: name 'ReActAgent' is not defined

@@ -1,0 +1,16 @@
+2025-01-23 12:59:58,136 - INFO - FunctionTool for search created successfully.
+2025-01-23 12:59:59,458 - INFO - Gemini LLM initialized successfully.
+2025-01-23 12:59:59,705 - INFO - Initialized ReActAgent successfully.
+2025-01-23 13:00:19,481 - INFO - Searching for query: who is the president of usa
+2025-01-23 13:00:19,483 - INFO - Searching for query: who is the president of usa
+2025-01-23 13:00:21,688 - INFO - Search completed successfully.
+2025-01-23 13:00:21,689 - INFO - Search Result: 
+https://en.wikipedia.org/wiki/President_of_the_United_States
+https://usun.usmission.gov/our-leaders/the-president-of-the-united-states/
+https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States
+https://ba.usembassy.gov/donald-j-trump-americas-new-president/
+https://www.bbc.com/news/articles/cde7ng85jwgo
+http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQrJzSTI4OI2aLe6DgXajqOO5E87Z3nGiTCZcn_-Q9xqZ_CLtLNLeYib4xxZUSGZgzb
+https://www.google.com/search?num=12
+https://www.instagram.com/potus/?hl=en
+https://www.youtube.com/watch?v=U4NWwi1_dCk

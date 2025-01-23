@@ -1,0 +1,15 @@
+2025-01-22 23:24:38,036 - INFO - FunctionTool for search created successfully.
+2025-01-22 23:24:40,133 - INFO - Gemini LLM initialized successfully.
+2025-01-22 23:24:40,341 - INFO - Initialized OpenAI LLM successfully.
+2025-01-22 23:24:40,342 - INFO - Received query: What is the name of the prime minister of Pakistan?
+2025-01-22 23:24:44,878 - INFO - Searching for query: prime minister of Pakistan
+2025-01-22 23:24:46,561 - INFO - Search results processed successfully.
+2025-01-22 23:24:49,084 - INFO - Searching for query: current prime minister of Pakistan
+2025-01-22 23:24:51,835 - INFO - Search results processed successfully.
+2025-01-22 23:24:54,219 - INFO - Searching for query: who is the current prime minister of Pakistan
+2025-01-22 23:24:55,844 - INFO - Search results processed successfully.
+2025-01-22 23:24:58,350 - INFO - Searching for query: Pakistan prime minister 2024
+2025-01-22 23:25:00,215 - INFO - Search results processed successfully.
+2025-01-22 23:25:02,932 - INFO - Searching for query: current prime minister of pakistan 2024
+2025-01-22 23:25:04,632 - INFO - Search results processed successfully.
+2025-01-22 23:25:04,635 - ERROR - Error occurred in script [D:\Projects\React llm agent\main.py] line [10] message [Reached max iterations.]

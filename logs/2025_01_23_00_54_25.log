@@ -1,0 +1,23 @@
+2025-01-23 00:54:25,624 - INFO - FunctionTool for search created successfully.
+2025-01-23 00:54:26,968 - INFO - Gemini LLM initialized successfully.
+2025-01-23 00:54:27,176 - INFO - Initialized ReActAgent successfully.
+2025-01-23 00:54:37,453 - INFO - Searching for query: who is the president of usa
+2025-01-23 00:54:37,457 - INFO - Searching for query: who is the president of usa
+2025-01-23 00:54:39,817 - INFO - Search completed successfully.
+2025-01-23 00:54:39,817 - INFO - Search Result: 
+https://en.wikipedia.org/wiki/President_of_the_United_States
+https://usun.usmission.gov/our-leaders/the-president-of-the-united-states/
+https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States
+https://ba.usembassy.gov/donald-j-trump-americas-new-president/
+http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQrJzSTI4OI2aLe6DgXajqOO5E87Z3nGiTCZcn_-Q9xqZ_CLtLNLeYib4xxZUSGZgzb
+https://www.youtube.com/watch?v=X5gMiDnYEds
+https://www.ohiosos.gov/elections/election-results-and-data/historical-election-comparisons/presidents-of-the-united-states-of-america/
+https://in.usembassy.gov/our-relationship/the-president-of-the-united-states/
+https://www.usa.gov/presidents
+2025-01-23 00:54:39,819 - ERROR - An error occurred: 'ReActAgent' object has no attribute 'act'
+2025-01-23 00:54:39,820 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "D:\Projects\React llm agent\app.py", line 29, in <module>
+    response = agent.act(search_result)
+               ^^^^^^^^^
+AttributeError: 'ReActAgent' object has no attribute 'act'

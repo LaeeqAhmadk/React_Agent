@@ -1,0 +1,16 @@
+2025-01-23 13:16:27,003 - INFO - FunctionTool for search created successfully.
+2025-01-23 13:16:28,575 - INFO - Gemini LLM initialized successfully.
+2025-01-23 13:16:28,772 - INFO - Initialized ReActAgent successfully.
+2025-01-23 13:16:51,768 - INFO - Searching for query: how is the weather in peshawar?
+2025-01-23 13:16:51,771 - INFO - Searching for query: how is the weather in peshawar?
+2025-01-23 13:16:54,149 - INFO - Search completed successfully.
+2025-01-23 13:16:54,149 - INFO - Search Result: https://www.weather.com/wx/today/?lat=34.02&lon=71.52&locale=en_US&par=google
+https://www.timeanddate.com/weather/pakistan/peshawar/ext
+https://www.accuweather.com/en/pk/peshawar/259370/hourly-weather-forecast/259370
+https://weather.com/weather/tenday/l/Peshawar+Khyber+Pakhtunkhwa+Pakistan?canonicalCityId=d5b95fd36c0efc1bbd0d5f964979f297c6e1f82ee40dc00ba45a1550e08d0b08
+https://www.ventusky.com/peshawar
+https://www.accuweather.com/en/pk/peshawar/259370/current-weather/259370
+https://www.weather-forecast.com/locations/Peshawar/forecasts/latest
+https://www.bbc.com/weather/1168197
+https://weather.com/en-PK/weather/tenday/l/Peshawar+Khyber+Pakhtunkhwa?canonicalCityId=d5b95fd36c0efc1bbd0d5f964979f297c6e1f82ee40dc00ba45a1550e08d0b08
+https://www.yr.no/en/forecast/hourly-table/2-1168197/Pakistan/Khyber%20Pakhtunkhwa/Pesh%C4%81war%20District/Peshawar?i=0

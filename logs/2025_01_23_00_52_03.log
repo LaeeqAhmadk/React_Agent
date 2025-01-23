@@ -1,0 +1,80 @@
+2025-01-23 00:52:03,535 - INFO - FunctionTool for search created successfully.
+2025-01-23 00:52:04,887 - INFO - Gemini LLM initialized successfully.
+2025-01-23 00:52:05,085 - INFO - Initialized ReActAgent successfully.
+2025-01-23 00:52:12,430 - INFO - Searching for query: who is the president of usa
+2025-01-23 00:52:12,433 - INFO - Searching for query: who is the president of usa
+2025-01-23 00:52:14,481 - INFO - Search completed successfully.
+2025-01-23 00:52:14,482 - INFO - Search Result: 
+https://en.wikipedia.org/wiki/President_of_the_United_States
+https://usun.usmission.gov/our-leaders/the-president-of-the-united-states/
+https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States
+https://ba.usembassy.gov/donald-j-trump-americas-new-president/
+http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQrJzSTI4OI2aLe6DgXajqOO5E87Z3nGiTCZcn_-Q9xqZ_CLtLNLeYib4xxZUSGZgzb
+https://www.ohiosos.gov/elections/election-results-and-data/historical-election-comparisons/presidents-of-the-united-states-of-america/
+https://www.youtube.com/watch?v=X5gMiDnYEds
+https://in.usembassy.gov/our-relationship/the-president-of-the-united-states/
+https://www.instagram.com/potus/?hl=en
+2025-01-23 00:52:14,486 - ERROR - An error occurred: 'SearchingTool' object has no attribute 'metadata'
+2025-01-23 00:52:14,486 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "D:\Projects\React llm agent\app.py", line 29, in <module>
+    response = agent.query(search_result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 321, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\base\base_query_engine.py", line 52, in query
+    query_result = self._query(str_or_query_bundle)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 321, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\callbacks\utils.py", line 41, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\base\agent\types.py", line 49, in _query
+    agent_response = self.chat(
+                     ^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 321, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\callbacks\utils.py", line 41, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\runner\base.py", line 692, in chat
+    chat_response = self._chat(
+                    ^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 321, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\runner\base.py", line 624, in _chat
+    cur_step_output = self._run_step(
+                      ^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 321, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\runner\base.py", line 420, in _run_step
+    cur_step_output = self.agent_worker.run_step(step, task, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\instrumentation\dispatcher.py", line 321, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\callbacks\utils.py", line 41, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\react\step.py", line 818, in run_step
+    return self._run_step(step, task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\react\step.py", line 562, in _run_step
+    input_chat = self._react_chat_formatter.format(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\react\formatter.py", line 67, in format
+    "tool_desc": "\n".join(get_react_tool_descriptions(tools)),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\agent\react\formatter.py", line 27, in get_react_tool_descriptions
+    f"> Tool Name: {tool.metadata.name}\n"
+                    ^^^^^^^^^^^^^
+  File "D:\Projects\React llm agent\.venv\Lib\site-packages\llama_index\core\tools\types.py", line 193, in metadata
+    return self.base_tool.metadata
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SearchingTool' object has no attribute 'metadata'
